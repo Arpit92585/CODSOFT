@@ -1,5 +1,4 @@
 import random
-
 entity_dict = {0: "Rock", 1: "Paper", 2: "Scissor"}
 choice = int(input("Enter your choice 0,1,2 for rock,paper or scissor\n"))
 comp_choice = random.choice(list(entity_dict.keys()))
